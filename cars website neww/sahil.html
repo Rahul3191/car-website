@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="purva.css"/>
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Carpool</span>Rideshare </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#reviews">Available</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="connect.php">
+        <h3>user login</h3>
+        <input type="username" placeholder="username" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn" onclick="location.href='myprof.html'">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S16816456%3A1667551166695945&authuser=0&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession" class="btn"> google </a>
+            <a href="https://www.facebook.com/login.php/" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="create_acc.html">create account</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your ride</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="find_car.html" class="btn home-parallax">explore cars</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>5+</h3>
+            <p>branches</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>470+</h3>
+            <p>certified Cars</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>320+</h3>
+            <p>happy clients</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>New Routes</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> popular <span>vehicles</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.747YowhQMwmVQ8FQxYzkqAHaEK&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>Suzuki XL6</h3>
+                    <div class="price"> <span>Fare : 400</span>  </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Suzuki XL6
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Mumbai
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.cdIOWp1aYFBezzgzhOTT_QHaFj&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>Ford ecosport</h3>
+                    <div class="price"> <span>fare : 450</span>  </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> ford ecosport
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Airoli
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.uPU-_JDOumzNXugcbFbIbgHaE8&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>Vitara brezza</h3>
+                    <div class="fare"> <span>fare : 250</span>  </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Vitara brezza
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Nashik
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Q7VbMtJOWP18MS_SO5QczwHaE6&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>Innova</h3>
+                    <div class="fare"> <span>fare : 349</span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> innova
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Andheri
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.l3-7aws0xN9wVEXl_8O1mgHaE7&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>Indigo Manza</h3>
+                    <div class="fare"> <span>fare :600 </span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Indigo Manza
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Jalgaon
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ZlTAWvznI1l01IUxCaZjnQHaE8&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>mahindra Thar</h3>
+                    <div class="fare"> <span>fare :250 </span>  </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Thar
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From jogeshwari
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.indianautosblog.com/2017/01/Maruti-Ignis-front-three-quarter-featured-First-Drive-Review.jpg" alt="">
+                <div class="content">
+                    <h3>Ignis</h3>
+                    <div class="fare"> <span>fare : 550</span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Ignis
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 90kph
+                        <span class="fas fa-circle"></span> From Jalgaon
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Hyundai_Grand_i10_1.0_GL_Sedan_2017_%2833541605345%29.jpg" alt="">
+                <div class="content">
+                    <h3>Hyundai Xcent</h3>
+                    <div class="fare"> <span>fare : 450</span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Hyundai Xcent
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 70kph
+                        <span class="fas fa-circle"></span> From Satara
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSru77sGw86djZOjunnvFqAN95z8QwNuPImmQ&usqp=CAU" alt="">
+                <div class="content">
+                    <h3>WagonR</h3>
+                    <div class="fare"> <span>fare : 300</span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> WagonR
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 70kph
+                        <span class="fas fa-circle"></span> From Thane
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Maruti_Suzuki_Dzire_VXi_VVT.JPG" alt="">
+                <div class="content">
+                    <h3>Swift Dzire</h3>
+                    <div class="fare"> <span>fare :456 </span> </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Swift Dzire
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 70kph
+                        <span class="fas fa-circle"></span> From Panvel
+                    </p>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>create ride</h3>
+            <p>Please enter your personal and car details.</p>
+            <a href="createride.html" class="btn"> Create</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>parts repair</h3>
+            <p>Please enter your personal and car details.</details></p>
+            <a href="" class="btn">Enter</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>find car</h3>
+            <p>search car suitable for you</p>
+            <a href="find_car.html" class="btn"> Find</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>battery replacement</h3>
+            <p></p>
+            <a href="#" class="btn"> Replace</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>oil change</h3>
+            <p></p>
+            <a href="#" class="btn"> change</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>contact us here.</p>
+            <a href="contact_us.html" class="btn"> visit</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> cars </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.N7yoVbjI5P3jmsfCj0RAbQHaE6&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>KIA SELTOS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.jhJVA58_Zui7-cOGflVqWQHaEK&pid=Api&P=0" alt="">
+                <div class="content">
+                    <h3>MG ASTOR</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>CHEVROLET</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>AUDI Q8</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-5.png" alt="">
+                 <div class="content">
+                     <h3>KIA SPORTAGE</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class=""></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"></div>
+                     <a href="checkout.html" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="">
+                 <div class="content">
+                     <h3>HONDA CIVIC</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"></div>
+                     <a href="checkout.html" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="https://tse1.mm.bing.net/th?id=OIP.YSOoqCvErohJxXGKuaVlRgHaFj&pid=Api&P=0" alt="">
+                 <div class="content">
+                     <h3>TATA ALTROZ</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <i class=""></i>
+                     </div>
+                     <div class="price"></div>
+                     <a href="checkout.html" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="https://www.drivespark.com/images/2022-06/mahindra-scorpio-n-102.jpg" alt="">
+                 <div class="content">
+                     <h3>MAHINDRA SCORPIO</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"></div>
+                     <a href="checkout.html" class="btn">check out</a>
+                 </div>
+             </div>
+
+             <div class="swiper-slide box">
+                <img src="https://i.ytimg.com/vi/lqB7YP3Gwj8/maxresdefault.jpg" alt="">
+                <div class="content">
+                    <h3>Swift Desire</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class=""></i>
+                        <i class=""></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://gaadiwaadi.com/wp-content/uploads/2017/01/maruti-suzuki-ignis-drive-review-front-4.jpg" alt="">
+                <div class="content">
+                    <h3>Ignis</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"></div>
+                    <a href="checkout.html" class="btn">check out</a>
+                </div>
+            </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<section class="newsletter">
+    
+    <h3>subscribe for latest updates</h3>
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> Available <span>Drivers</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="content">
+                    <p>i will be leaving From Ghansoli at 7:00am to Pune.</p>
+                    <h3>Dhiraj Phalak</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="newprofile.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="content">
+                    <p>Come to lonavla with me at very affordable price</p>
+                    <h3>Sahil More</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="sahilprof.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="content">
+                    <p>Travel in SUV with luxury</p>
+                    <h3>Adhyatma Mishra</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="adhya.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.CsaifDYoiBBfsEIXVBMy6wHaE8&pid=Api&P=0" alt="" width="100" height="100">
+                <div class="content">
+                    <p>travel with comfort from Nashik to Mumbai</p>
+                    <h3>Divya chavhan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="newprofile.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="content">
+                    <p>join me for a tour from surat to ahemdabad.</p>
+                    <h3>Neha kamble</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="neha.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="content">
+                    <p>Looking for the same route as mine? come be my travelmate</p>
+                    <h3>Dilip Joshi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="dilip.html" class="btn">view</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632137920043!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="tel" placeholder="subject" class="box">
+            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Maharashtra </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Uttar Pradesh </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Gujrat </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kerala </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> purva@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="https://accounts.snapchat.com/accounts/welcome"> <i class="fab fa-snapchat"></i> Snapchat</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <i class="fab fa-email"></i> email </a>
+            <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    
+
+</section>
+    
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="adhyatmJS.js"></script>
+
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"1a8e3dfe889ce712b009f2ba9098861d7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+
+</body>
+</html>
